@@ -76,7 +76,7 @@ gulp.task('style:build', function () {
         .pipe($.sourcemaps.init()) //То же самое что и с js
             .pipe(sass().on('error', sass.logError)) //Скомпилируем
             .pipe($.autoprefixer()) //Добавим вендорные префиксы
-            .pipe($.minifyCss()) //Сожмем
+            .pipe($.cssnano()) //Сожмем
         .pipe($.sourcemaps.write('maps'))
         .pipe(gulp.dest(path.build.css)) //И в build
         .pipe(reload({stream: true}));
