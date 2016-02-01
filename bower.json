@@ -1,0 +1,22 @@
+{
+  "name": "logo-maker",
+  "description": "Конструктор логотипов",
+  "version": "1.0.0",
+  "authors": [
+    "FunnyROGER <roger@furo.xyz>"
+  ],
+  "license": "MIT",
+  "homepage": "http://furo.xyz/logo-maker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "uikit": "^2.24.3"
+  }
+}

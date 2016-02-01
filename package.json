@@ -1,0 +1,32 @@
+{
+	"name": "logo-maker",
+	"version": "1.0.0",
+	"description": "Конструктор логотипов",
+	"author": "FunnyROGER",
+	"license": "ISC",
+	"dependencies": {
+		"browser-sync": "^2.2.3",
+		"gulp": "^3.9.0",
+		"gulp-autoprefixer": "^2.1.0",
+		"gulp-html-prettify": "0.0.1",
+		"gulp-imagemin": "^2.2.1",
+		"gulp-jade": "^1.1.0",
+		"gulp-load-plugins": "^1.2.0",
+		"gulp-minify-css": "^1.0.0",
+		"gulp-rigger": "^0.5.8",
+		"gulp-sass": "^2.1.1",
+		"gulp-sourcemaps": "^1.5.0",
+		"gulp-uglify": "^1.5.1",
+		"gulp-update": "0.0.2",
+		"gulp-watch": "^4.1.1",
+		"imagemin-pngquant": "^4.2.0",
+		"rimraf": "^2.3.1"
+		},
+		"main": "gulpfile.js",
+		"scripts": {
+			"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"devDependencies": {
+				"gulp-bower": "0.0.13"
+			}
+		}
